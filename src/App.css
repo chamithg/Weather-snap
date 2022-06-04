@@ -57,6 +57,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  transition: var(--transition);
 }
 ul {
   list-style-type: none;
@@ -241,13 +242,17 @@ p {
   align-items: center;
   text-align: center;
 }
-@media screen and (min-width: 600px) {
+.weather-Icon {
+  height: 150px;
+  width: 150px;
+  margin: 0 4rem;
+}
+@media screen and (min-width: 800px) {
   .body {
     height: 90vh;
   }
   .today-basic {
     flex-direction: row;
-
     justify-content: space-around;
   }
 }
@@ -280,7 +285,7 @@ p {
 .card h4 {
   color: var(--clr-primary-2);
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .more-info,
   .basic-info {
     z-index: 2;

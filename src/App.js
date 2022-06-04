@@ -1,12 +1,12 @@
 import "./App.css";
-import Body from "./components/Body";
+import BodyMain from "./components/BodyMain";
 import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Body />
+      <BodyMain />
     </div>
   );
 }
