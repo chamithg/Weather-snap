@@ -19,7 +19,7 @@ function Body() {
           <h1>{weatherData ? weatherData.temp : null} °f</h1>
           <h2>{weatherStatus ? weatherStatus.description : null}</h2>
 
-          <img className="weather-Icon" src={icon} alt="icon not found" />
+          <img className="weather-Icon" src={icon} alt0="icon not found" />
 
           <h2>{weatherData ? weatherData.ob_time.slice(0, 10) : null}</h2>
         </div>
