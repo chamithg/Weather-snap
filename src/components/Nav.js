@@ -13,8 +13,8 @@ function Nav() {
     <div className="nav">
       <div className="nav-content">
         <div className="nav-logo">
-          <h1>Demo </h1>
-          <h1>weather</h1>
+          <h1>Weather </h1>
+          <h1>Snap</h1>
         </div>
         <div>
           <form action="#" className="form " onSubmit={handleSubmit}>
