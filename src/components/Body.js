@@ -12,7 +12,7 @@ function Body() {
     <div className="body">
       <div className="today-basic">
         <video autoPlay muted loop id="myVideo">
-          <source src={currentVideo} type="video/mp4" />
+          <source src="" type="video/mp4" />
         </video>
         <div className="basic-info">
           <h2>{weatherData ? weatherData.city_name : null}</h2>
